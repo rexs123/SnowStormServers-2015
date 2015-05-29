@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} ^http(s)?://(www\.)?district9hosting.com/ [NC]
+RewriteRule .*\.(jpe?g|gif|bmp|png)$ https://pbs.twimg.com/profile_images/475415360053989377/Mjug636c_400x400.jpeg [L]
